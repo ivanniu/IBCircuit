@@ -1,0 +1,16 @@
+# configs for optim
+learning_rate: 0.05
+seed: 42
+epsilon: 0.0000001
+device: 'cuda:0'
+num_epochs: 1300
+alpha_loss: 'kl'
+alpha: 1
+beta: 1
+threshold: 0.5
+dataset_size_limit: 100
+data_name: 'ioi' #greaterthan
+prompt_type: "ABBA"
+mask_type: 'sigmoid'
+saved_res_dir: 'PATH_TO_SAVED_RES'
+

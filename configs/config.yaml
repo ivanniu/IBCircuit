@@ -1,0 +1,7 @@
+defaults:
+    - model : gpt2_small
+    - train :  train_gpt2
+
+
+
+
